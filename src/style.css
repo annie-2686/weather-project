@@ -29,8 +29,9 @@ h1 {
   font-weight: bolder;
 }
 
-.weatherDes {
+.weatherDes:first-letter {
   color: #bfd8d5;
+  text-transform: capitalize;
 }
 
 ul {
