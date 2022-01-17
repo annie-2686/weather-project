@@ -50,3 +50,10 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+
+.units {
+  color: #b1bed5;
+  position: relative;
+  font-size: 16px;
+  top: -20px;
+}
