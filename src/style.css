@@ -1,22 +1,33 @@
 .wholepage {
+  padding: 20px;
   max-width: 600px;
   margin: 30px auto;
+  border: black;
+  background-color: #f4f3f3;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Corinthia", cursive;
+  font-family: "Jost", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Passion One", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
   color: #b1bed5;
-  font-size: 24px;
+  font-size: 44px;
+  font-weight: bolder;
+  margin-bottom: 0px;
 }
 
-h2 {
+.dateTime {
   color: #bfd8d5;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .tempNumb {
   color: #b1bed5;
   font-size: 44px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 p {
@@ -30,13 +41,10 @@ ul {
 
 li {
   list-style: none;
-  margin: 0;
-  padding: 0;
-
   color: #bfd8d5;
   font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
+  margin: 0;
+  padding: 0;
 }
 
 li:first-letter {
