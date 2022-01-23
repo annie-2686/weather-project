@@ -24,18 +24,17 @@
   <body>
     <div class="wholepage">
       <h1 id="city"></h1>
-      <span class="dateTime">Sunday 17:00</span>
-
+      <span class="dateTime" id="date">Sunday 17:00</span>
+      <div class="weatherDes" id="description">cloudy</div>
       <div class="row">
         <div class="col-6">
-          <span class="tempNumb" id="temperature">22</span
-          ><span class="units">°C | °F</span> <img src="#" alt="Clear" />
-          <div class="weatherDes" id="description">cloudy</div>
+          <span class="tempNumb" id="temperature">22</span>
+          <span class="units">°C | °F</span> <img src="#" alt="Clear" />
         </div>
         <div class="col-6">
           <ul>
-            <li>Humidity: <span id="Humidity"></span>%</li>
-            <li>Wind: <span id="wind"></span> km/h</li>
+            <li>Humidity: <span class="hum" id="humidity"></span>%</li>
+            <li>Wind: <span class="win" id="wind"></span> km/h</li>
             <li>
               Sunrise <span id="sunrise"></span> Sunset
               <span id="sunset"></span>
