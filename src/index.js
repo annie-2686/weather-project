@@ -31,7 +31,6 @@ function formatDay(timestamp) {
 }
 
 function displayTemperature(response) {
-  console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
@@ -52,7 +51,19 @@ function displayTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
-let apiKey = "c0ac58b13badefb603b7db3b6c4f7f72";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=japan&appid=${apiKey}&units=metric`;
+function search(city) {
+  let apiKey = "c0ac58b13badefb603b7db3b6c4f7f72";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayTemperature);
+}
 
-axios.get(apiUrl).then(displayTemperature);
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("sumbit", handleSubmit);
+
+search("London");
