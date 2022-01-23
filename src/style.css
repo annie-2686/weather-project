@@ -63,3 +63,9 @@ li:first-letter {
 .hum .win {
   color: #b1bed5;
 }
+
+.footer {
+  font-size: 10px;
+  text-align: center;
+  color: #b1bed5;
+}
