@@ -23,6 +23,22 @@
   </head>
   <body>
     <div class="wholepage">
+      <form id="search-form" class="mb-3">
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="search"
+              placeholder="Type a city.."
+              class="form-control"
+              id="city-input"
+              autocomplete="off"
+            />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="btn btn-primary w-100" />
+          </div>
+        </div>
+      </form>
       <h1 id="city"></h1>
       <span class="dateTime" id="date">Sunday 17:00</span>
 
@@ -36,14 +52,10 @@
           <ul>
             <li>
               <img src="#" alt="Clear" id="icon" />
-              <span class="weatherDes" id="description">cloudy</span>
             </li>
+            <li><span class="weatherDes" id="description">cloudy</span></li>
             <li>Humidity: <span class="hum" id="humidity"></span>%</li>
             <li>Wind: <span class="win" id="wind"></span> km/h</li>
-            <li>
-              Sunrise <span id="sunrise"></span> Sunset
-              <span id="sunset"></span>
-            </li>
           </ul>
         </div>
       </div>
