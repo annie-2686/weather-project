@@ -22,7 +22,7 @@
     <title>Weather</title>
   </head>
   <body>
-    <div class="wholepage">
+    <div class="container">
       <form id="search-form" class="mb-3">
         <div class="row">
           <div class="col-9">
@@ -43,7 +43,7 @@
       <span class="dateTime" id="date">Sunday 17:00</span>
 
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <span class="tempNumb" id="temperature" 22></span>
 
           <span class="units">
@@ -53,17 +53,23 @@
               >°F</a
             ></span
           >
-        </div>
-        <div class="col-6">
+       </div>
+      </div>
+      
+         <div class="col-4">
+<ul>
+            <li>Humidity: <span class="hum" id="humidity"></span>%</li>
+            <li>Wind: <span class="win" id="wind"></span> km/h</li>
+          </ul>
+        </div> 
+        <div class="col-12">
           <ul>
             <li>
               <img src="#" alt="Clear" id="icon" />
             </li>
             <li><span class="weatherDes" id="description">cloudy</span></li>
-            <li>Humidity: <span class="hum" id="humidity"></span>%</li>
-            <li>Wind: <span class="win" id="wind"></span> km/h</li>
-          </ul>
-        </div>
+</ul></div>
+
       </div>
     </div>
   </br>

@@ -1,4 +1,4 @@
-.wholepage {
+.container {
   max-width: 600px;
   margin-top: 10px;
   border: solid;
@@ -64,7 +64,7 @@ li:first-letter {
   color: #b1bed5;
   position: relative;
   font-size: 16px;
-  top: -45px;
+  top: -55px;
 }
 
 .hum .win {
