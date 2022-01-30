@@ -3,7 +3,8 @@
   margin-top: 10px;
   border: solid;
   border-width: thick;
-  color: #dfdfdf;
+  color: #ececec;
+
   border-radius: 15px;
   padding: 20px;
   text-align: center;
@@ -16,22 +17,22 @@
 }
 
 #city-input {
-  color: orange;
+  color: #9fd3c7;
 }
 h1 {
-  color: #b1bed5;
+  color: #142d4c;
   font-size: 44px;
   font-weight: bolder;
   margin-bottom: 0px;
 }
 
 .dateTime {
-  color: #bfd8d5;
+  color: #9fd3c7;
   font-size: 20px;
 }
 
 .tempNumb {
-  color: #b1bed5;
+  color: #142d4c;
   font-size: 70px;
   font-weight: bolder;
 }
@@ -41,7 +42,7 @@ h1 {
 }
 
 .weatherDes {
-  color: #bfd8d5;
+  color: #9fd3c7;
   font-size: 20px;
 }
 ul {
@@ -51,7 +52,7 @@ ul {
 
 li {
   list-style: none;
-  color: #bfd8d5;
+  color: #9fd3c7;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -62,26 +63,30 @@ li:first-letter {
 }
 
 .units {
-  color: #b1bed5;
+  color: #142d4c;
   position: relative;
   font-size: 16px;
-  top: -55px;
+  top: -40px;
 }
 
 .hum .win {
-  color: #b1bed5;
+  color: #142d4c;
+}
+
+.wwww .hhhh {
+  color: #9fd3c7;
 }
 
 .footer {
   font-size: 10px;
   text-align: center;
-  color: #b1bed5;
+  color: #142d4c;
 }
 
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #b1bed5;
+  color: #142d4c;
   font-weight: bold;
 }
 
@@ -96,4 +101,22 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.active {
+  color: #142d4c;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #9fd3c7;
+}
+
+a:hover {
+  color: #ececec;
+}
+
+.form-control {
+  color: #142d4c;
 }
